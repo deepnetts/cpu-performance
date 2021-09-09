@@ -1,5 +1,6 @@
 package com.deepnetts.examples.cpu;
 
+import deepnetts.core.DeepNetts;
 import deepnetts.data.DataSets;
 import deepnetts.data.MLDataItem;
 import deepnetts.data.norm.MaxNormalizer;
@@ -96,6 +97,8 @@ public class CpuPerformancePrediction {
                 Logger.getLogger(CpuPerformancePrediction.class.getName()).log(Level.SEVERE, null, ex);
             } 
 
+        // shutdown the thread pool
+        DeepNetts.shutdown();            
     }
 
 }

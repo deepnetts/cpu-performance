@@ -1,4 +1,4 @@
-# Predicting CPU Performance Using Deep Learning in Java
+# Deep Learning in Java for CPU Performance Prediction
 
 * To run example download Deep Netts https://deepnetts.com/download
 * To install Deep Netts into your local Maven repository https://www.deepnetts.com/blog/deep-learning-in-java-getting-started-with-deep-netts.html
